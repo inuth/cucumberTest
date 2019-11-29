@@ -9,10 +9,10 @@ import io.cucumber.junit.CucumberOptions.SnippetType;
 @RunWith(Cucumber.class)
 @CucumberOptions(features = "src/test/java/com/example/demo/cucumber/features",
 plugin = {"pretty", "junit:TestCucumber/Cucumber.xml"},
-dryRun = true,
+//dryRun = true,
 snippets = SnippetType.UNDERSCORE,
-strict = true,
-tags = {"@fast","~@removed"}
+strict = true
+//tags = {"@fast","not @removed"}
 )
 public class CucumberTest {
 }

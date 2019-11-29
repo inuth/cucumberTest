@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="9" time="0.127045">
+<testcase classname="calcul total to pay with new customers discount" name="A new client purchase a product" time="0.020672">
+<system-out><![CDATA[Given A new client "John Doe"...............................................passed
+And a "banana" at 1.5.......................................................passed
+When I calculate the amount.................................................passed
+Then the amount to pay is 1.2...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="calcul total to pay with new customers discount" name="A new client purchase many products" time="0.001262">
+<system-out><![CDATA[Given A new client "John Doe"...............................................passed
+And a "banana" at 1.5.......................................................passed
+And a "packet of chocolate" at 10.0.........................................passed
+When I calculate the amount.................................................passed
+Then the amount to pay is 9.5...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Is it Friday yet" name="the day is Friday" time="0.088312">
+<system-out><![CDATA[Given The day is "2019-11-29"...............................................passed
+When I ask if it is Friday yet..............................................passed
+Then I get OK...............................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Is it Friday yet" name="the day is not Friday" time="0.002006">
+<system-out><![CDATA[Given The day is "2019-11-25"...............................................passed
+When I ask if it is Friday yet..............................................passed
+Then I get KO...............................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Is it Friday yet" name="the day is not Friday 2" time="0.001876">
+<system-out><![CDATA[Given The day is "2019-11-26"...............................................passed
+When I ask if it is Friday yet..............................................passed
+Then I get KO...............................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Is it Friday yet" name="the day is not Friday 3" time="0.005175">
+<system-out><![CDATA[Given The day is "2019-11-27"...............................................passed
+When I ask if it is Friday yet..............................................passed
+Then I get KO...............................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Is it Friday yet" name="the day is not Friday 4" time="0.001043">
+<system-out><![CDATA[Given The day is "2019-11-28"...............................................passed
+When I ask if it is Friday yet..............................................passed
+Then I get KO...............................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Is it Friday yet" name="the day is not Friday 5" time="0.00286">
+<system-out><![CDATA[Given The day is "2019-11-30"...............................................passed
+When I ask if it is Friday yet..............................................passed
+Then I get KO...............................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Is it Friday yet" name="the day is not Friday 6" time="0.003839">
+<system-out><![CDATA[Given The day is "2019-12-01"...............................................passed
+When I ask if it is Friday yet..............................................passed
+Then I get KO...............................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
